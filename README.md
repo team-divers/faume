@@ -1,25 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Versions
 
-Things you may want to cover:
+- Uses Ruby 2.2.3
+- Uses Rails 5.0.1
+- Uses PostgreSQL as a database
 
-* Ruby version
+# Initialization
 
-* System dependencies
+Clone the project using:
 
-* Configuration
+  git@github.com:team-divers/faume.git
 
-* Database creation
+Initialize database using:
 
-* Database initialization
+  rails db:setup
 
-* How to run the test suite
+Run migrations using:
 
-* Services (job queues, cache servers, search engines, etc.)
+  rails db:migrate
 
-* Deployment instructions
+# Running
 
-* ...
-# faume
+Run the project using:
+
+  rails s
