@@ -10,18 +10,18 @@
 
 Clone the project using:
 
-  git@github.com:team-divers/faume.git
+    git@github.com:team-divers/faume.git
 
 Initialize database using:
 
-  rails db:setup
+    rails db:setup
 
 Run migrations using:
 
-  rails db:migrate
+    rails db:migrate
 
 # Running
 
 Run the project using:
 
-  rails s
+    rails s
