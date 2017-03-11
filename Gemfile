@@ -24,6 +24,9 @@ gem 'coffee-rails', '~> 4.2'
 # Use Haml as main templating language
 gem "haml-rails", "~> 0.9"
 
+# Use React on Rails as the Rails' React provider
+gem "react_on_rails", "~> 6"
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
