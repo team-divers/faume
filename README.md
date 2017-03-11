@@ -17,6 +17,12 @@ Clone the project using:
 
     git@github.com:team-divers/faume.git
 
+Install dependencies using:
+
+    bundle && yarn
+    cd client/
+    yarn
+
 Initialize database using:
 
     rails db:setup
@@ -29,4 +35,4 @@ Run migrations using:
 
 Run the project using:
 
-    rails s
+    foreman start -f Procfile.dev 
