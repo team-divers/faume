@@ -1,4 +1,9 @@
-# README
+# Faume
+
+# Dependencies
+
+- Foreman
+- Yarn
 
 # Versions
 
