@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "type": "mobile",
+      "steps": [
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        }
+      ]
+    },
+    {
+      "type": "desktop",
+      "steps": [
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        }
+      ]
+    },
+    {
+      "type": "cardboard",
+      "steps": [
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        }
+      ]
+    },
+    {
+      "type": "oculus",
+      "steps": [
+        {
+          "title": "My title",
+          "description": "My description"
+        },
+        {
+          "title": "My title",
+          "description": "My description"
+        }
+      ]
+    }
+  ]
+}

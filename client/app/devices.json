@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "title": "Mobile",
+      "value": "mobile"
+    },
+    {
+      "title": "Desktop",
+      "value": "desktop"
+    },
+    {
+      "title": "Cardboard",
+      "value": "cardboard"
+    },
+    {
+      "title": "Oculus",
+      "value": "oculus"
+    }
+  ]
+}
