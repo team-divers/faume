@@ -36,11 +36,13 @@ class UsageScreenContainer extends React.Component {
   }
 
   setStep(step) {
+
     this.setState({
       ...this.state,
       currentStep: step
+    }, () => {
+      console.log(this.state);
     })
-    console.log(step);
   }
 
   render() {
@@ -54,7 +56,7 @@ class UsageScreenContainer extends React.Component {
             <div>
               <UsageStep
                 title={this.state.usage.steps[this.state.currentStep].title}
-                description ={this.state.usage.steps[this.state.currentStep].title}
+                description ={this.state.usage.steps[this.state.currentStep].description}
               />
               <UsageStepNavigation
                 currentStep={this.state.currentStep}

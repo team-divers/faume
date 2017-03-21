@@ -4,16 +4,16 @@
       "type": "mobile",
       "steps": [
         {
-          "title": "My title",
-          "description": "My description"
+          "title": "Looking around",
+          "description": "To look around, simply move your phone around."
         },
         {
-          "title": "My title",
-          "description": "My description"
+          "title": "Interacting",
+          "description": "To interact with the visualization, simply tap your screen"
         },
         {
-          "title": "My title",
-          "description": "My description"
+          "title": "Focussing",
+          "description": "Sometimes, when you focus, you'll see a timer. This means focussing will trigger something within the experience."
         }
       ]
     },

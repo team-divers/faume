@@ -14,8 +14,8 @@ const App = () => (
   <Router>
     <main>
       <Route exact path="/" component={SplashScreenContainer}/>
-      <Route path="/device" component={DeviceScreenContainer}/>
-      <Route path="/usage/:device" component={UsageScreenContainer}/>
+      <Route path="/device" component={DeviceScreenContainer} />
+      <Route path="/usage/:device" component={UsageScreenContainer} />
     </main>
   </Router>
 )
