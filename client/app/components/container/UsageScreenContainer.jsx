@@ -36,11 +36,13 @@ class UsageScreenContainer extends React.Component {
   }
 
   setStep(step) {
+
     this.setState({
       ...this.state,
       currentStep: step
+    }, () => {
+      console.log(this.state);
     })
-    console.log(step);
   }
 
   render() {
