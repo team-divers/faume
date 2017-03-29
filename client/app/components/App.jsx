@@ -13,7 +13,7 @@ import {
 const App = () => (
   <Router>
     <main>
-      <Route exact path="/" component={SplashScreenContainer}/>
+      <Route exact path="/" component={ExperienceScreenContainer}/>
       <Route path="/device" component={DeviceScreenContainer} />
       <Route path="/usage/:device" component={UsageScreenContainer} />
       <Route path="/experience" component={ExperienceScreenContainer} />

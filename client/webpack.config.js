@@ -38,6 +38,16 @@ const config = {
         loader: 'imports?shim=es5-shim/es5-shim&sham=es5-shim/es5-sham',
       },
       {
+       // The important stuff
+       test: /\.(jpg|jpeg|png|dae|mtl|obj)(\?.*)?$/, // Load only .jpg .jpeg, and .png files
+       loader: 'file-loader',
+       query: {
+          name: '[name][md5:hash].[ext]', // Name of bundled asset
+          outputPath: 'webpack-assets/', // Output location for assets. Final: `app/assets/webpack/webpack-assets/`
+          publicPath: '/assets/webpack-assets/' // Endpoint asset can be found at on Rails server
+        }
+      },
+      {
         test: /\.jsx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
