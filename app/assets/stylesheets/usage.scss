@@ -1,0 +1,21 @@
+.usageBackground {
+  background-image: url("/assets/vleugel.jpg");
+}
+
+.nextAndPrevious {
+  .next, .previous {
+    width: 300px;
+    height: 183px;
+    background: #303c63;
+    display: block;
+  }
+  .next {
+
+  }
+
+  .previous {
+
+  }
+  z-index: 2;
+  position: relative;
+}
