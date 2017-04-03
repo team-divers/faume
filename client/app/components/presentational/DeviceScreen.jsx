@@ -23,7 +23,7 @@ const DeviceScreen = ({devices, deviceChoice, onChooseDevice}) => {
                 </div>
             </section>
             <div className="backgroundImageSplashScreen deviceBackground"></div>
-            <section className="wizard">
+            <section className="wizard deviceWizard">
                 <h1 className="tuinVanNoordBorder">2/4</h1>
             </section>
         </div>

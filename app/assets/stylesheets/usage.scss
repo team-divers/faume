@@ -4,18 +4,39 @@
 
 .nextAndPrevious {
   .next, .previous {
-    width: 300px;
-    height: 183px;
+    .button {
+      color: #ffffff;
+      font-size: 5vw;
+      text-decoration: none;
+    }
+    width: 45%;
+    height: 150px;
     background: #303c63;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
   }
   .next {
-
+    float: right;
   }
 
   .previous {
-
+    float: left;
   }
   z-index: 2;
   position: relative;
+}
+
+.loading {
+  font-size: 10vw;
+  font-family: 'Museo', sans-serif;
+  width: 50%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
