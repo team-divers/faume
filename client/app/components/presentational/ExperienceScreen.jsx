@@ -1,7 +1,7 @@
 import React from 'react';
 import 'aframe';
 import laminate from '../../models/laminate.jpg'
-import model from '../../models/faume_test_alleen_bank.dae';
+import model from '../../models/faume.dae';
 
 const ExperienceScreen = () => {
   return (
@@ -16,6 +16,10 @@ const ExperienceScreen = () => {
       <a-sky src="#skyTexture"></a-sky>
       <a-collada-model src="#model"></a-collada-model>
       <a-plane src="#laminate" height="4.55" width="6" position="2.64 0 0.22" rotation="-90 0 0"></a-plane>
+      <a-entity position="5.60 1.33 0.22" rotation="0 -90 0" geometry="mergeTo:null;primitive:plane;height:2.66;width:6" material="normalScale:{&quot;x&quot;:1,&quot;y&quot;:1}"></a-entity>
+      <a-entity position="2.64 2.64 0.22" rotation="90 0 0" geometry="mergeTo:null;primitive:plane;height:4.55;width:6" material="normalScale:{&quot;x&quot;:1,&quot;y&quot;:1}"></a-entity>
+      <a-entity position="2.64 1.33 -2.055" rotation="0 0 0" geometry="mergeTo:null;primitive:plane;height:2.66;width:6" material="normalScale:{&quot;x&quot;:1,&quot;y&quot;:1}"></a-entity>
+      <a-entity position="2.64 1.33 2.495" rotation="180 0 0" geometry="mergeTo:null;primitive:plane;height:2.66;width:6" material="normalScale:{&quot;x&quot;:1,&quot;y&quot;:1}"></a-entity>
       <a-camera userHeight="2">
         <a-cursor color="black"></a-cursor>
       </a-camera>
