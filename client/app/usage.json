@@ -4,33 +4,16 @@
       "type": "mobile",
       "steps": [
         {
-          "title": "Looking around",
-          "description": "To look around, simply move your phone around."
+          "title": "Kijken",
+          "description": "Om rond te kijken, beweeg dan simpelweg je telefoon."
         },
         {
-          "title": "Interacting",
-          "description": "To interact with the visualization, simply tap your screen"
+          "title": "Interactie",
+          "description": "Om interactie te hebben, druk dan op het scherm van je telefoon."
         },
         {
-          "title": "Focussing",
-          "description": "Sometimes, when you focus, you'll see a timer. This means focussing will trigger something within the experience."
-        }
-      ]
-    },
-    {
-      "type": "desktop",
-      "steps": [
-        {
-          "title": "My title",
-          "description": "My description"
-        },
-        {
-          "title": "My title",
-          "description": "My description"
-        },
-        {
-          "title": "My title",
-          "description": "My description"
+          "title": "Focussen",
+          "description": "Als je focust op bepaalde voorwerpen in de ervaring, zal er interactie mogelijk worden."
         }
       ]
     },
@@ -38,25 +21,16 @@
       "type": "cardboard",
       "steps": [
         {
-          "title": "My title",
-          "description": "My description"
+          "title": "Kijken",
+          "description": "Om rond te kijken, beweeg dan simpelweg je hoofd."
         },
         {
-          "title": "My title",
-          "description": "My description"
-        }
-      ]
-    },
-    {
-      "type": "oculus",
-      "steps": [
-        {
-          "title": "My title",
-          "description": "My description"
+          "title": "Interactie",
+          "description": "Om interactie te hebben, druk dan op het het knopje rechtsboven op de Cardboard."
         },
         {
-          "title": "My title",
-          "description": "My description"
+          "title": "Focussen",
+          "description": "Als je focust op bepaalde voorwerpen in de ervaring, zal er interactie mogelijk worden."
         }
       ]
     }
