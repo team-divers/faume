@@ -9,11 +9,7 @@ const DeviceScreen = ({devices, deviceChoice, onChooseDevice}) => {
                 <section className="header">
                     <h1 className="tuinVanNoordBorder">Kies je apparaat!</h1>
                 </section>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Het is belangrijk dat wij weten welk apparaat jij gebruikt! Op deze manier kunnen we de ervaring afstemmen.</p>
                 <div>
                     {devices.map(d =>
                         <Link key={d.value} to={`/usage/${d.value}`}>
