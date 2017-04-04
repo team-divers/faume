@@ -60,6 +60,9 @@ class UsageScreenContainer extends React.Component {
                 totalSteps={this.state.usage.steps.length}
                 setStep={this.setStep.bind(this)}
               />
+              <section className="wizard">
+                <h1 className="tuinVanNoordBorder">3/4</h1>
+              </section>
             </div>
           )
         )}
