@@ -7,7 +7,7 @@ const UsageStepNavigation = ({ currentStep, totalSteps, setStep }) => {
             className="button">Next</section></a> : ((currentStep === totalSteps - 1) ? <Link className="next" to="/experience"><section className="button">Experience</section></Link> : null);
 
   return (
-    <div className="nextAndPrevious">
+    <div className="nextAndPrevious group">
       {previousButton}
       {nextButton}
     </div>
