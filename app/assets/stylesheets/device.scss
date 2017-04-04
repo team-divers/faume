@@ -1,0 +1,20 @@
+
+@font-face {
+  src: url("museo.otf");
+}
+
+h1 {
+  font-family: 'Museo', sans-serif;
+}
+
+.deviceBackground {
+  background-image: url("/assets/inhouse.jpg");
+}
+
+.deviceWizard {
+  position: relative !important;
+  margin-top: 50px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
