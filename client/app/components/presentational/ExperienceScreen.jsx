@@ -9,7 +9,7 @@ const ExperienceScreen = () => {
     <a-scene vr-mode-ui="enabled: true">
       <a-assets>
         <img src={laminate} id="laminate" />
-        <img src={wallpaper} id="wallpaper"
+        <img src={wallpaper} id="wallpaper" />
         <a-asset-item id="model" src={model}></a-asset-item>
         <img id="skyTexture"
           src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/sechelt.jpg" />
